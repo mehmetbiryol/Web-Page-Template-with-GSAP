@@ -22,7 +22,7 @@ header {
     height: 100vh;
     padding: 24px;
     background-image: url(img/header-bg.jpg);
-    background-size: 1510px 100%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 .header-top {
@@ -181,7 +181,7 @@ nav>ul li a:hover::after {
 .clients-wrapper {
     display: grid;
     padding: 48px;
-    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 48px;
 }
 .clients-card {
